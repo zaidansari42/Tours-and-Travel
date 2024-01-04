@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HeroImage from "./components/HeroImage";
 import HotelSearch from "./components/HotelSearch";
 import Destinations from "./components/Destinations";
+import ExclusiveOffer from "./components/ExclusiveOffer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <HeroImage />
         <HotelSearch />
         <Destinations />
+        <ExclusiveOffer />
       </main>
     </div>
   );
