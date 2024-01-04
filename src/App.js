@@ -1,32 +1,20 @@
-import './App.css';
+import "./styles/App.css";
+import "./styles/homepage.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className='flex justify-between text-base my-4 mx-6'>
-          <div>
-            <ul className='flex gap-4 p-2'>
-              <li>Discover</li>
-              <li>Destinations</li>
-              <li>Packages</li>
-              <li>Explore</li>
-            </ul>
-          </div>
-          <div className='flex gap-4'>
-            <button className='border-solid border-2 px-8 rounded-3xl'>
-              Join
-            </button>
-            <button className='border-solid border-2 px-8 rounded-3xl'>
-              Login
-            </button>
+      <Navbar />
+      <hr />
+      <main>
+        <div className="mx-6 my-2 max-h-56 rounded-lg hero grid place-content-center text-white">
+          <div className="backdrop-brightness-50 px-2">
+            <h2 className="text-5xl font-bold">plan your dream trip</h2>
+            <p>over 1 million rooms awaiting for you</p>
           </div>
         </div>
-      </header>
-      <hr />
-      <body>
-
-      </body>
+      </main>
     </div>
   );
 }
