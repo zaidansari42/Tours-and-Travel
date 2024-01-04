@@ -1,0 +1,12 @@
+.hero {
+  background-image: url(./../assets/hero-image.jpg);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 90%;
+  text-transform: capitalize;
+}
+
+.hotel-search{
+  top: -3em;
+}
